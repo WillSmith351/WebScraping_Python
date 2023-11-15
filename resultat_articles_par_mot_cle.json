@@ -1,0 +1,26 @@
+{
+  "Nombre d'articles par mot-clé": {
+    "intelligence artificielle": 3,
+    "microsoft": 2,
+    "smartphone": 2,
+    "mac": 2,
+    "electronique": 4,
+    "qualcomm": 2,
+    "hp inc.": 5,
+    "environnement": 1,
+    "pc": 1,
+    "cybersécurité": 2,
+    "gouvernement": 1,
+    "amazon": 1,
+    "informatique": 2,
+    "hardware": 1,
+    "innovation": 1,
+    "apple": 3,
+    "samsung": 1,
+    "semi-conducteurs": 1,
+    "intel": 2,
+    "5g": 1,
+    "dell": 1,
+    "green it": 1
+  }
+}
