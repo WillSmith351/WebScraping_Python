@@ -1,0 +1,36 @@
+﻿William Smith
+Charles de Feligonde
+
+
+Rapport Web Scraping Python
+
+
+L’objectif du projet est d’extraire des données issues de plusieurs sites web : un site de comparaison, un site d’actualité et un forum, tous ayant pour thème les ordinateurs portables. Ceci dans le but d'une analyse des tendances du marché et des comportements des consommateurs pour une entreprise.
+
+
+Pour ce faire, nous avons utilisé la méthode de Web Scraping via le langage de programmation Python et ses bibliothèques, notamment BeautifulSoup et Requests.
+
+
+Afin de récolter les informations des pages web, nous avons utilisé la bibliothèque BeautifulSoup pour cibler les données grâce à leurs balises. Nous avons également traité ces informations afin de les enregistrer dans un fichier JSON séparé pour pouvoir les exploiter ultérieurement.
+
+
+Dans le cadre de l'étude sur ces données, nous avons dû les traiter. Nous avons comptabilisé le nombre de fois où la marque d’un ordinateur a été testée, les meilleures marques de PC en fonction du nombre d’étoiles attribuées, ainsi que la quantité d'articles écrits pour un sujet majeur.
+
+
+Les défis rencontrés ont été les suivants : cibler les données pertinentes des pages web pour une analyse approfondie, apprendre à réaliser du web scraping grâce à Python, et naviguer entre plusieurs pages.
+
+
+Analyse :
+
+
+Nous avons remarqué grâce à notre algorithme ces résultats :
+
+
+Sur le site de comparaison, la marque Asus a été testée 10 fois, Apple 7 fois et la marque Acer 4 fois. Cela signifie que la marque Asus est plus populaire en général, suivie par la marque américaine Apple. En revanche, les marques LG, Dell et Razer sont beaucoup moins sollicitées et possèdent donc moins de tests.
+
+
+Concernant la qualité des ordinateurs, Apple est en tête du classement avec 5 tests à 5 étoiles, suivi de son homologue sud-coréen Samsung avec deux tests à 5 étoiles. La marque Asus possède néanmoins 5 tests à 4 étoiles, ce qui indique que ses produits sont de bonne qualité. Cependant, un test lui attribue seulement 2 étoiles.
+
+
+Sur le site d’actualité, les sujets majeurs traités sont l’entreprise HP Inc avec 5 articles, puis l’électronique avec 4 articles, suivi de l’entreprise Apple avec 3 articles. On remarque que les géants de la Tech sont très populaires dans les médias dédiés aux nouvelles technologies, de même que les articles liés à l’électronique, ce qui indique un intérêt pour ces sujets. De plus, l’intelligence artificielle est abordée dans 3 articles, ce qui confirme que ce sont des sujets tendance.
+Sur le forum, en analysant les commentaires, nous pouvons constater des avis différents sur les technologies, le matériel informatique et les marques d’ordinateurs. Ceci permet d’analyser les comportements vis-à-vis des produits et ainsi de déterminer les points d’amélioration pour ces produits.
